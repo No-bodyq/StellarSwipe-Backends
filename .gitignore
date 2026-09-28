@@ -1,11 +1,7 @@
 # Environment Variables - NEVER COMMIT SECRETS
-.env
-.env.local
 .env.*.local
-.env.development
 .env.testnet
 .env.mainnet
-.env.production
 
 # Dependencies
 node_modules/
@@ -26,7 +22,6 @@ lerna-debug.log*
 logs/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -55,3 +50,4 @@ vrickish.md
 
 # Somzilla issues file
 somzilla.md
+config.bat
