@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/1228-queue-category-concurrency",
+    "fix/1229-distributed-scheduled-jobs",
+    "fix/1230-queue-payload-versioning",
+    "fix/1235-provider-concurrency-limits",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/1228-queue-category-concurrency": "main",
+    "fix/1229-distributed-scheduled-jobs": "main",
+    "fix/1230-queue-payload-versioning": "main",
+    "fix/1235-provider-concurrency-limits": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/1228-queue-category-concurrency",
+    "fix/1229-distributed-scheduled-jobs",
+    "fix/1230-queue-payload-versioning",
+    "fix/1235-provider-concurrency-limits",
+    "origin"
+  ]
+}
